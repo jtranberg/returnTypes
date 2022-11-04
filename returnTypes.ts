@@ -1,5 +1,16 @@
-const addNums = (x: number, y: number): number => {
+const addNums = (x: number, y: number): number => {        //number is an anotation
     return x + y;
 }
 
 addNums(5,5);
+
+function rando(num: number) {
+    if(Math.random()< 0.5) {
+        return num.toString();
+    }
+    return num;
+}
+
+const add = (x: number, y:number): number  => {
+return x+y;
+}
