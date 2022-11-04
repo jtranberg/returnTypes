@@ -14,3 +14,8 @@ function rando(num: number) {
 const add = (x: number, y:number): number  => {
 return x+y;
 }
+
+const colors = ["red", "blue", "green"];
+colors.map(color => {                               //typescript infers this is a string
+    return color.toUpperCase()
+})

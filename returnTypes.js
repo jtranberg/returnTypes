@@ -11,3 +11,7 @@ function rando(num) {
 var add = function (x, y) {
     return x + y;
 };
+var colors = ["red", "blue", "green"];
+colors.map(function (color) {
+    return color.toUpperCase();
+});
